@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "strada-env"
+version = "0.1.0"
+dependencies = [
+    "numpy>=2.4.6",
+    "pygame>=2.6.1"
+]
+
+[project.scripts]
+strada = "strada_env.cli:main"
