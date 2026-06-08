@@ -1,0 +1,8 @@
+{
+  "agents": [
+    {"spawn": [1, 1], "finish": [16, 17]},
+    {"spawn": [17, 1], "finish": [2, 17]},
+    {"spawn": [1, 17], "finish": [16, 1]},
+    {"spawn": [17, 17], "finish": [2, 1]}
+  ]
+}
