@@ -112,7 +112,7 @@ Ready-to-run Q-learning scripts are in `examples/`:
 | `one_env_q-learning.py` | Single environment, multi-agent Q-learning |
 | `parallel_q-learning.py` | Parallel environments for faster training |
 
-Both scripts include `train` and `test` functions with configurable hyperparameters at the top of the file.
+Both scripts include `train` and `test` functions with configurable hyperparameters at the top of the file. Require `tqdm` (`pip install tqdm`).
 
 ## Map Editor
 
